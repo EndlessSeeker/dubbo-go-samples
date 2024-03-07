@@ -1,0 +1,8 @@
+dubbo:
+  consumer:
+    references:
+      GreetProvider:
+        protocol: tri
+        serialization: hessian2
+        url: tri://127.0.0.1:20000
+        interface: com.apache.dubbo.sample.basic.Greet

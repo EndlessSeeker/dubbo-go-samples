@@ -1,0 +1,10 @@
+dubbo:
+  protocols:
+    triple:
+      name: tri
+      port: 20000
+  provider:
+    services:
+      GreetProvider:
+        serialization: hessian2
+        interface: com.apache.dubbo.sample.basic.Greet

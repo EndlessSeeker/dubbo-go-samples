@@ -97,6 +97,10 @@ array+=("compatibility/polaris/limit")
 # error
 array+=("error")
 
+# serialization
+array+=("serialization/json")
+array+=("serialization/hessian2")
+
 # compatibility
 ## registry
 array+=("compatibility/registry/zookeeper")
